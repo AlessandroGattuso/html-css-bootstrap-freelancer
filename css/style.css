@@ -25,7 +25,41 @@ html{
   text-decoration: underline !important;
  }
 /* Main */
+.avatar{
+  max-width: 200px;
+}
+
+.line{
+  border-radius: 20px;
+  border: 2px solid;
+}
 /* Footer */
+form input,
+form textarea{
+  font-size: 16px;
+  color: rgb(88, 88, 88);
+  border: none;
+  border-bottom: 1px solid rgb(176, 176, 176);
+  padding: 10px 0px;
+}
+
+form input::placeholder,
+form textarea::placeholder{
+  color: black;
+}
+
+form textarea{
+  min-height: 100px;
+}
+
+form input:focus,
+form textarea:focus{
+  outline: none;
+}
+
+form button:hover{
+  background-color: rgb(44,63,79) !important;
+}
 
 /* Utilities */
 .cursor-pointer{
@@ -35,9 +69,4 @@ html{
  /* Background */
  .bg-aquamarine{
   background-color: rgb(28,188,155);
- }
-
- /* Padding */
- .py-90px{
-  padding: 90px;
  }
